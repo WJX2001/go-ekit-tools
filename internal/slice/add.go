@@ -1,6 +1,6 @@
 package slice
 
-import "awesomeProject/internal/errs"
+import "ekit-tools/internal/errs"
 
 func Add[T any](src []T, element T, index int) ([]T, error) {
 	length := len(src)

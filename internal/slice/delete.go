@@ -1,6 +1,6 @@
 package slice
 
-import "awesomeProject/internal/errs"
+import "ekit-tools/internal/errs"
 
 func Delete[T any](src []T, index int) ([]T, T, error) {
 	length := len(src)

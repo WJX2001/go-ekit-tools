@@ -1,7 +1,7 @@
 package slice
 
 import (
-	ekit "awesomeProject"
+	ekit "ekit-tools"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -58,9 +58,7 @@ func ContainsAll[T comparable](src, dst []T) bool {
 // 首先使用 ContainsAll
 func ContainsAllFunc[T any](src, dst []T, equal equalFunc[T]) bool {
 	for _, valDst := range dst {
-		if !ContainsFunc[T](src, func(src T) bool {
-			return equal(src, valDst)
-		}) {
+		if !ContainsFunc[T](src, func(src T) bool { return equal(src, valDst) }) {
 			return false
 		}
 	}

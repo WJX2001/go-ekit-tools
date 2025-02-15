@@ -1,6 +1,6 @@
 package slice
 
-import ekit "awesomeProject"
+import ekit "ekit-tools"
 
 // Max 返回最大值
 // 该方法假设你至少会传入一个值

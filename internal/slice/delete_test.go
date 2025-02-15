@@ -1,7 +1,7 @@
 package slice
 
 import (
-	"awesomeProject/internal/errs"
+	"ekit-tools/internal/errs"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

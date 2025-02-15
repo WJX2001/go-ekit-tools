@@ -1,6 +1,6 @@
 package slice
 
-import "awesomeProject/internal/slice"
+import "ekit-tools/internal/slice"
 
 // Add 在index处添加元素
 // index 范围应

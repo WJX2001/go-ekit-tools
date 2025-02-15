@@ -1,4 +1,4 @@
-module awesomeProject
+module ekit-tools
 
 go 1.20
 
