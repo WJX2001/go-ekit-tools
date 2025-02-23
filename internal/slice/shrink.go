@@ -14,7 +14,7 @@ func calCapacity(c, l int) (int, bool) {
 	return c, false
 }
 
-func shrink[T any](src []T) []T {
+func Shrink[T any](src []T) []T {
 	c, l := cap(src), len(src)
 	n, changed := calCapacity(c, l)
 	if !changed {
